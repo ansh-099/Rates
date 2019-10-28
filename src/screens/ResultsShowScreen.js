@@ -49,7 +49,8 @@ image:{
 title:{
     fontSize:18,
     fontWeight:'bold',
-    alignSelf:'center'
+    alignSelf:'center',
+    marginBottom:5
 }
 });
 
