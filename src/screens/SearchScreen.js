@@ -9,6 +9,7 @@ const SearchScreen = () => {
     const [term,setTerm] = useState('');
     const [results,setResults] = useState([]);
 
+    
     const filterResultsByPrice = (price) => {
         return results.filter(result => result.price == price);
     };
@@ -48,6 +49,7 @@ return (
         onTermSubmit = {() => searchAPI(term) }
         onTermChanged = {(newTerm) => setTerm(newTerm)}/>
 
+        {(results.length > 0) ? 
         <ScrollView>
 
         <ResultList
@@ -62,7 +64,8 @@ return (
         results = {filterResultsByPrice('$$$')} title = 'Big Spender'/>
         <View style={styles.view}/>
 
-        </ScrollView>
+        </ScrollView> : null
+        }
     </>
 );
 };
