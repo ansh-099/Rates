@@ -10,7 +10,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Screen',
     defaultNavigationOptions: {
-      title: 'Food'
+      title: 'Explore Food'
     }
   }
 );

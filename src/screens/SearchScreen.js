@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import {View,Text,StyleSheet} from 'react-native'
+import {View,Text,StyleSheet,ScrollView} from 'react-native'
 import SearchBar from '../components/SearchBar'
 import yelp from '../api/yelp';
 import { Logs } from 'expo';
@@ -35,7 +35,6 @@ const SearchScreen = () => {
     }
     };
 
-    console.log('he');
     useEffect(()=> {
         searchAPI('pasta');
     },[])
@@ -43,16 +42,25 @@ const SearchScreen = () => {
 
     // setResults("food");
 return (
-    <View >
-        {(results.length > 0) ?
-        <Text>We have : {results.length}</Text> : null}
+    <>
+        {/* {(results.length > 0) ? <Text>We have : {results.length}</Text> : null} */}
         <SearchBar 
         onTermSubmit = {() => searchAPI(term) }
         onTermChanged = {(newTerm) => setTerm(newTerm)}/>
+
+        <ScrollView>
+
         <ResultList results = {filterResultsByPrice('$')} title = {'Cost Effective'}/>
+        <View style={styles.view}/>
+
         <ResultList results = {filterResultsByPrice('$$')} title = 'Bit Pricer'/>
+        <View style={styles.view}/>
+
         <ResultList results = {filterResultsByPrice('$$$')} title = 'Big Spender'/>
-    </View>
+        <View style={styles.view}/>
+
+        </ScrollView>
+    </>
 );
 };
 
@@ -60,7 +68,16 @@ const styles = StyleSheet.create({
 title:{
     fontSize: 18,
     fontWeight: 'bold'
+},
+view:{
+    backgroundColor:'#F0EEEE',
+    height:1.3,
+    left:15,
+    right:15,
+    marginTop:5,
+    marginBottom:3
+    }
 }
-});
+);
 
 export default SearchScreen;
