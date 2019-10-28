@@ -1,5 +1,5 @@
 # Food
-React Native application For Food vs Rates Search
+React Native application used to search and watch efficient prices for different restaurants using yelp.com API 
 
 ### Search for Pasta:
 </br>
