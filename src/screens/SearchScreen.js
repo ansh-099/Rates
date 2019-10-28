@@ -50,13 +50,16 @@ return (
 
         <ScrollView>
 
-        <ResultList results = {filterResultsByPrice('$')} title = {'Cost Effective'}/>
+        <ResultList
+        results = {filterResultsByPrice('$')} title = {'Cost Effective'}/>
         <View style={styles.view}/>
 
-        <ResultList results = {filterResultsByPrice('$$')} title = 'Bit Pricer'/>
+        <ResultList
+        results = {filterResultsByPrice('$$')} title = 'Bit Pricer'/>
         <View style={styles.view}/>
 
-        <ResultList results = {filterResultsByPrice('$$$')} title = 'Big Spender'/>
+        <ResultList
+        results = {filterResultsByPrice('$$$')} title = 'Big Spender'/>
         <View style={styles.view}/>
 
         </ScrollView>
