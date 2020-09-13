@@ -4,9 +4,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/c462858751a234cdcd08/maintainability)](https://codeclimate.com/github/rob729/Minimal_ToDo/maintainability)
 
 React Native application used to search and watch efficient prices for different restaurants. This means that searching anything is going to have three categories:
-* Cost Efficient- Worth buying.
-* Bit Pricer- a little bit pricer than its actual outcome value.
-* Big Spender- highly costly than its actual outcome value.
+* Cost Efficient: Worth buying.
+* Bit Price: A little bit pricer than its actual outcome value.
+* Big Spender: Highly costly than its actual outcome value.
 ### Search for Pasta and Chicken:
 <table>
         <tr>
