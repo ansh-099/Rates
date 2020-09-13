@@ -15,6 +15,9 @@ React Native application used to search and watch efficient prices for different
         </tr>
 </table> 
 
-
-  
+### Everything used are:
+ * React Native with Context
+ * React Native with Hooks
+ * Axios
+ 
 Cheers!
