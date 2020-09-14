@@ -15,9 +15,9 @@ React Native application used to search and watch efficient prices for different
         </tr>
 </table> 
 
-### Everything used are:
- * React Native with Context
- * React Native with Hooks
- * Axios
+### Everything used is:
+ * [React Native with Context](https://reactjs.org/docs/context.html)
+ * [React Native with Hooks](https://reactjs.org/docs/hooks-intro.html)
+ * [Axios](https://www.npmjs.com/package/axios)
  
 Cheers!
