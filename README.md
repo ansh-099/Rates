@@ -1,7 +1,7 @@
 # Rates
-[![Build Status](https://travis-ci.org/rob729/Minimal_ToDo.svg?branch=master)](https://travis-ci.org/rob729/Minimal_ToDo)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/346c2ba7d2d841a48fc83734e3d2d682)](https://app.codacy.com/app/rob729/Minimal_ToDo?utm_source=github.com&utm_medium=referral&utm_content=rob729/Minimal_ToDo&utm_campaign=Badge_Grade_Dashboard)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c462858751a234cdcd08/maintainability)](https://codeclimate.com/github/rob729/Minimal_ToDo/maintainability)
+![Build Status](https://travis-ci.org/rob729/Minimal_ToDo.svg?branch=master)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/346c2ba7d2d841a48fc83734e3d2d682)
+![Maintainability](https://api.codeclimate.com/v1/badges/c462858751a234cdcd08/maintainability)
 
 React Native application used to search and watch efficient prices for different restaurants. This means that searching anything is going to have three categories:
 * Cost Efficient: Worth buying.
